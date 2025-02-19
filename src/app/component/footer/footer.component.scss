@@ -1,0 +1,113 @@
+
+
+
+
+
+
+.footer {
+  width: 100%;
+  height: 230px;
+  background-color: #ff7d01;
+  margin-top: 60px;
+  padding: 0 110px;
+  display: flex;
+  flex-direction: row;
+}
+
+#logo-bottom {
+  width: auto;
+  height: 200px;
+}
+
+.policy {
+  color: white;
+}
+
+.hotline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#hotline-number {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  padding-top: 20px;
+  padding-left: 20px;
+  color: white;
+
+
+}
+
+.sdt {
+  padding-left: 7px;
+}
+
+.phone-number {
+  font-size: 45px;
+  color: white;
+  font-weight: bold;
+
+
+}
+
+.about-us {
+  padding-top: 20px;
+  padding-left: 30px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 13px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.promotion {
+  padding-top: 20px;
+  padding-left: 30px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 13px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.follow {
+  padding-top: 20px;
+  padding-left: 30px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 13px;
+  align-items: center;
+  justify-content: center;
+}
+
+.app {
+  padding-top: 20px;
+  padding-left: 90px;
+  flex-direction: column;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.app-store {
+  width: 150px;
+  height: auto;
+}
+
+.store {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  width: 300px;
+  height: auto;
+}

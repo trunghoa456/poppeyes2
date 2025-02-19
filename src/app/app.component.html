@@ -1,0 +1,19 @@
+<app-header></app-header>
+
+<app-search></app-search>
+
+
+
+<div class="tag">
+  @for (ga of products; track $index) {
+    <app-product-card [image] = "ga.image" [name] = "ga.name" [money] = "ga.money"></app-product-card>
+
+  }
+  <div class="xem-them">
+    <button class="view-menu">Xem thêm thực đơn</button>
+  </div>
+</div>
+
+<app-footer></app-footer>
+
+

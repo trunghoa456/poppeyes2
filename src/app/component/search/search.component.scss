@@ -1,0 +1,106 @@
+.uu-dai {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.menu-tabs {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+
+.khuyen-mai {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: none;
+  cursor: pointer;
+  color: #bdbdbd;
+  font-weight: bold;
+
+}
+
+.mon-ngon-phai-thu {
+
+  color: #ff7d01;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#vui-long-nhap-dia-chi {
+  background-color: white;
+  padding: 10px 20px;
+  width: 461.5px;
+  border: none;
+  border-radius: 100px 0 0 100px;
+  color: #e0e0e0;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 15px;
+
+}
+
+.icon-search {
+  background-color: #ff7d01;
+  padding: 7px;
+  border-radius: 0px 100px 100px 0px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.out-line-search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  height: 40px;
+  width: 461.5px;
+  display: flex;
+  align-items: center;
+  border-radius: 100px 0px 0px 100px;
+  border: 1px solid #bdbdbd;
+
+}
+
+.giao-hang-den-lay {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 25px;
+}
+
+#giao-hang {
+  width: 190.36px;
+  height: 34px;
+  border-radius: 16px 16px 0px 0px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #ff7d01;
+  font-family: sans-serif;
+}
+
+#dat-lay {
+  width: 140.31px;
+  height: 34px;
+  border-radius: 16px 16px 0px 0px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #e0e0e0;
+  font-family: sans-serif;
+}
