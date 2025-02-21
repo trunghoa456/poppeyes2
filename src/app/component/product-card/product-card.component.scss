@@ -8,6 +8,7 @@
   margin-top: 20px;
   text-align: center;
   align-items: stretch;
+  overflow: hidden;
 }
 
 .item {
@@ -31,13 +32,14 @@
   height: 220.4px;
   border-radius: 15px;
   margin-bottom: 10px;
-  transition: transform 0.4s ease-in-out;
+  transition: transform 0.3s ease-in-out;
   display: block;
+  object-fit: cover;
 }
 
 .item img:hover {
-  transition: 0.4s ease-in-out;
-  transform: scale(1.04);
+  transition: 0.3s ease-in-out;
+  transform: scale(1.10);
   cursor: pointer
 }
 

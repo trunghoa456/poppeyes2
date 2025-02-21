@@ -8,7 +8,7 @@
   display: flex;
   justify-content: center;
   margin-top: 20px;
-
+  width: 100%;
 }
 
 .khuyen-mai {
@@ -18,6 +18,7 @@
   cursor: pointer;
   color: #bdbdbd;
   font-weight: bold;
+  font-size: 24px;
 
 }
 
@@ -30,6 +31,7 @@
   margin: 0 5px;
   cursor: pointer;
   font-weight: bold;
+  font-size: 24px;
 }
 
 #vui-long-nhap-dia-chi {
@@ -38,7 +40,7 @@
   width: 461.5px;
   border: none;
   border-radius: 100px 0 0 100px;
-  color: #e0e0e0;
+  color: black;
   font-weight: bold;
   font-family: sans-serif;
   font-size: 15px;
@@ -48,7 +50,7 @@
 .icon-search {
   background-color: #ff7d01;
   padding: 7px;
-  border-radius: 0px 100px 100px 0px;
+  border-radius: 0 100px 100px 0;
   height: 40px;
   display: flex;
   justify-content: center;
@@ -68,7 +70,7 @@
   width: 461.5px;
   display: flex;
   align-items: center;
-  border-radius: 100px 0px 0px 100px;
+  border-radius: 100px 0 0 100px;
   border: 1px solid #bdbdbd;
 
 }
@@ -84,7 +86,7 @@
 #giao-hang {
   width: 190.36px;
   height: 34px;
-  border-radius: 16px 16px 0px 0px;
+  border-radius: 16px 16px 0 0;
   border: none;
   font-size: 18px;
   font-weight: bold;
@@ -96,7 +98,7 @@
 #dat-lay {
   width: 140.31px;
   height: 34px;
-  border-radius: 16px 16px 0px 0px;
+  border-radius: 16px 16px 0 0;
   border: none;
   font-size: 18px;
   font-weight: bold;

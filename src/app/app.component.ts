@@ -9,12 +9,12 @@ import {FooterComponent} from './component/footer/footer.component';
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet, HeaderComponent, SearchComponent, ProductCardComponent, FooterComponent],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  templateUrl:'./app.component.html',
+  styleUrl: './app.component.scss',
 })
 export class AppComponent {
   title = 'poppeyes';
-  products = [
+  product = [
     {
       image: 'http://127.0.0.1:5500/Thu2Mua1tang1mua%203.jpg',
       name: 'Thứ 2 Mua 1 Tặng 1 - Mua 3 Miếng Tặng 3 Miếng 141K',

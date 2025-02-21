@@ -1,14 +1,15 @@
 <div id="header-container">
   <div class="logo">
-    <img src="./image 35.png" alt="Popeyes Việt Nam" id="logo-img">
+    <img src="http://127.0.0.1:5500/image%2035.png" alt="Popeyes Việt Nam" id="logo-img">
   </div>
-  <ul>
-    <li><a href="#">Khuyến mãi</a></li>
-    <li><a href="#">Thực đơn</a></li>
-    <li><a href="#">Cửa hàng</a></li>
-    <li><a href="#">Theo dõi đơn hàng</a></li>
-    <li><a href="#">Đặt tiệc</a></li>
-  </ul>
+  <div class="center-bar">
+    <ul> <li><a [routerLink]="['/promotion']" >KHUYẾN MÃI</a></li> </ul>
+    <ul> <li><a [routerLink]="['/product']" >THỰC ĐƠN</a></li> </ul>
+    <ul> <li><a [routerLink]="['/store']" >CỬA HÀNG</a></li> </ul>
+    <ul> <li><a [routerLink]="['/tracking']" >THEO DÕI ĐƠN HÀNG</a></li> </ul>
+    <ul> <li><a [routerLink]="['/book-party']" >ĐẶT TIỆC</a></li> </ul>
+  </div>
+
 
 
   <div class="order">
@@ -19,7 +20,7 @@
                 </span>
 
     </div>
-    <img src="./Screenshot 2025-02-17 204234.png" alt="rewards" id="rewards">
+    <img src="http://127.0.0.1:5500/Screenshot%202025-02-17%20204234.png" alt="rewards" id="rewards">
 
     <span class="material-symbols-outlined">
                 person
